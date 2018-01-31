@@ -1,4 +1,4 @@
-package com.navent.spring.service.impl;
+package com.navent.spring.model;
 
 public class PublisherScore {
 	

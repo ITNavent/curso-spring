@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.navent.spring.model.Publisher;
+import com.navent.spring.model.PublisherScore;
 import com.navent.spring.service.PublisherScoreService;
 
 @Service // Es una especializacion de @Component, Indica que es un bean con lógica de negocio
