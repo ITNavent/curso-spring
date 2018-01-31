@@ -26,7 +26,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableCaching
 @EnableSwagger2
-public class RestConfiguation {
+public class RestConfiguration {
 
 	@Value("${configuration.api.rest.readTimeout:2000}")
 	private int readTimeout;
