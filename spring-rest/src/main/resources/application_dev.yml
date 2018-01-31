@@ -1,0 +1,10 @@
+spring: 
+  data:
+    mongodb:
+      database: curso-spring
+      #host: localhost
+      #port: 27017
+      
+management:
+  security:
+    enabled: false

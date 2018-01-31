@@ -1,0 +1,16 @@
+spring: 
+  profiles:
+    include:
+    - dev
+    - stg
+    - prd
+
+info:
+  app:
+    name: Curso Spring
+    version: 0.0.1
+
+configuration:
+  api:
+    pokemon:
+      url: https://pokeapi.co/api/v2/pokemon/?limit={limit}&offset={offset}
