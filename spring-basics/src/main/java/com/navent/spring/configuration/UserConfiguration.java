@@ -3,7 +3,7 @@ package com.navent.spring.configuration;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration("userConfiguration")
+@Configuration("userConfiguration") // configuracion via spring boot
 public class UserConfiguration {
 	
 	@Value("sclinis")
